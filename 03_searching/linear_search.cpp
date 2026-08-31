@@ -1,4 +1,3 @@
-// Perform linear search on an array
 #include <iostream>
 using namespace std;
 int main(){
@@ -10,6 +9,9 @@ int main(){
     for(int i = 0; i < size; i++){
         if(arr[i] == target){
             cout << arr[i] << " is at index of " << i;
+            break;
+        } else{
+            cout << "Not found!";
         }
     }
-}
+}  
